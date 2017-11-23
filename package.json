@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "jest": "jest --coverage",
-    "test": "nyc jest --env=node"
+    "test": "nyc jest --env=node",
+    "testAll": "nyc --all jest --env=node"
   },
   "dependencies": {
     "jest": "^21.2.1",
