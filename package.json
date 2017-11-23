@@ -1,0 +1,17 @@
+{
+  "name": "NYC Jest Unknown coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jest": "jest --coverage",
+    "test": "nyc jest --env=node"
+  },
+  "dependencies": {
+    "jest": "^21.2.1",
+    "nyc": "^11.3.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
