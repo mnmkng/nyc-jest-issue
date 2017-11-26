@@ -6,7 +6,8 @@
   "scripts": {
     "jest": "jest --coverage",
     "test": "nyc jest --env=node",
-    "testAll": "nyc --all jest --env=node"
+    "testAll": "nyc --all jest --env=node",
+    "report": "nyc report --reporter=html --report-dir=nyc_coverage"
   },
   "dependencies": {
     "jest": "^21.2.1",

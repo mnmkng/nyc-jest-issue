@@ -4,5 +4,9 @@ module.exports = {
     },
     hello: (name) => {
         return "Hello " + name;
+    },
+    parent: (callback) => {
+        let child = require("child_process").fork(__dirname + "/child.js");
+        child.on("message", callback)
     }
 };
