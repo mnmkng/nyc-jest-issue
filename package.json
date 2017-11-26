@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "jest": "jest --coverage",
-    "test": "nyc jest --env=node",
+    "jest": "jest --coverage --env=node --runInBand",
+    "test": "nyc jest --env=node --runInBand",
     "testAll": "nyc --all jest --env=node",
     "report": "nyc report --reporter=html --report-dir=nyc_coverage"
   },
